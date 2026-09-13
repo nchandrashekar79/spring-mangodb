@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Mechanical Keyboard",
+    "description": "Compact layout",
+    "price": 99.99
+  },
+  {
+    "name": "Wireless Mouse",
+    "description": "Ergonomic silent clicks",
+    "price": 39.99
+  },
+  {
+    "name": "USB-C Hub",
+    "description": "Seven-port aluminum hub",
+    "price": 59.99
+  },
+  {
+    "name": "4K Monitor",
+    "description": "27-inch IPS display",
+    "price": 399.00
+  },
+  {
+    "name": "Laptop Stand",
+    "description": "Adjustable aluminum stand",
+    "price": 49.50
+  },
+  {
+    "name": "Webcam",
+    "description": "Full HD video camera",
+    "price": 79.99
+  },
+  {
+    "name": "Desk Mat",
+    "description": "Water-resistant extended mat",
+    "price": 24.95
+  },
+  {
+    "name": "Noise-Cancelling Headphones",
+    "description": "Over-ear wireless audio",
+    "price": 199.99
+  },
+  {
+    "name": "Portable SSD",
+    "description": "1 TB USB-C storage",
+    "price": 109.00
+  },
+  {
+    "name": "Monitor Light Bar",
+    "description": "Dimmable screen-top lamp",
+    "price": 69.90
+  }
+]

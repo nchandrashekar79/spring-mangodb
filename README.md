@@ -32,6 +32,12 @@ Configuration can be overridden with environment variables:
 | --- | --- | --- |
 | `MONGODB_URI` | `mongodb://localhost:27017/products` | MongoDB connection string |
 | `SERVER_PORT` | `8080` | HTTP port |
+| `PRODUCT_DATA_FILE` | `classpath:products.json` | JSON file used to seed an empty product collection |
+
+On startup, the application loads the ten products from `products.json` when the
+product collection is empty. Set `PRODUCT_DATA_FILE` to a filesystem path or
+another Spring resource location to use a different file, for example
+`file:/opt/app/products.json`.
 
 ## API examples
 

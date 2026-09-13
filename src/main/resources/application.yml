@@ -3,6 +3,8 @@ spring:
     name: spring-mongodb
   mongodb:
     uri: ${MONGODB_URI:mongodb://localhost:27017/products}
+app:
+  product-data-file: ${PRODUCT_DATA_FILE:classpath:products.json}
 server:
   port: ${SERVER_PORT:8080}
 
