@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-mongodb
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/products}
+
+server:
+  port: ${SERVER_PORT:8080}
