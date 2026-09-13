@@ -7,12 +7,13 @@ import java.time.Instant;
 import java.util.Arrays;
 import java.util.List;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component
 public class ProductDataInitializer implements ApplicationRunner {
@@ -33,9 +34,9 @@ public class ProductDataInitializer implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws IOException {
-        if (repository.count() > 0) {
+        /*if (repository.count() > 0) {
             return;
-        }
+        } */
 
         List<ProductSeed> seeds;
         try (InputStream input = resourceLoader.getResource(dataFile).getInputStream()) {
