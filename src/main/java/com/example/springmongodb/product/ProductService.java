@@ -22,6 +22,10 @@ public class ProductService {
         return products.stream().map(this::toResponse).toList();
     }
 
+    public List<ProductResponse> findAll() {
+        return repository.findAll().stream().map(this::toResponse).toList();
+    }
+
     public ProductResponse findById(String id) {
         return repository.findById(id)
                 .map(this::toResponse)

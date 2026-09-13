@@ -24,6 +24,8 @@ mvn spring-boot:run
 
 The API listens on `http://localhost:8080`. The default connection is `mongodb://localhost:27017/products`.
 
+Open Swagger UI at `http://localhost:8080/swagger-ui.html` to explore and execute the API endpoints. The generated OpenAPI document is available at `http://localhost:8080/v3/api-docs`.
+
 Configuration can be overridden with environment variables:
 
 | Variable | Default | Purpose |
